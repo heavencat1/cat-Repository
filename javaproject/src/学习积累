@@ -67,7 +67,8 @@
 
               System.out.println("名字是:"+name+",年龄是:"+age+",工资是:"+score);
 
-
+        接收字符串：
+              char gender = scanner.next().charAt(0);
 
  原码，反码，补码:
       对于有符号的而言:
@@ -96,6 +97,22 @@
 
 
 控制结构:
+
+
+   switch:
+          1、表达式数据类型，应和case后的常量类型一致，或者是可以相互转换或可以比较的；
+          2、switch中表达式的返回值必须是（byte,short,int,char,enum[枚举],String）
+          3、case子句中的值只能是常量或常量表达式，不能是变量；
+          4、default字句是可选的,case语句下可以没有语句，这会穿透；
+
+
+   break:
+
+        标签label---标签，语句块，可以自由命名；
+        label:{  }
+
+   return:
+        使用在方法中，表示跳出所在的方法；如果放在main方法中，会跳出程序；
 
 
 
